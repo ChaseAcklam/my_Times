@@ -7,16 +7,24 @@
   border-bottom: 1px solid black;
   width: 100%
 }
+.subheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+}
 .logo {
 color: MediumAquamarine;
 }
 .logoimg {
-  margin: 10px 25px;
+  margin: 10px 15px 10px 25px;
   display: inline-flex;
   color: MediumAquamarine;
 }
 
 .nav a {
+  justify-content: flex-end;
   display: inline-block;
   color: black;
+  margin: 0px 10px;
 }
