@@ -32,19 +32,16 @@ color: MediumAquamarine;
 .main {
   margin-top: 40px;
   display: flex;
-  border: 1px solid black;
   justify-content: space-around;
 }
 
 .column {
   display: flex;
-  border: 1px solid black;
 }
 
 .column.large {
   display: flex;
   max-width: 630px;
-  border: 1px solid black;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -54,7 +51,6 @@ color: MediumAquamarine;
   margin: 0px 20px;
   display: flex;
   width: 300px;
-  border: 1px solid black;
   flex-wrap: wrap;
   align-content: flex-start;
 }
@@ -62,7 +58,6 @@ color: MediumAquamarine;
 .column.small {
   display: flex;
   width: 240px;
-  border: 1px solid black;
   align-content: flex-start;
   flex-wrap: wrap;
   flex-direction: column;
@@ -155,14 +150,12 @@ color: MediumAquamarine;
   position: relative;
   display: inline-block;
   width: 100%;
-  border: 1px solid black;
 }
 
 .medium.headline, .cats, .brooklyn{
   position: relative;
   display: inline;
   width: 100%;
-  border: 1px solid black;
 }
 
 .small.cookie, .headline {
@@ -170,14 +163,13 @@ color: MediumAquamarine;
   position: relative;
   display: inline;
   width: 100%;
-  border: 1px solid black;
 }
 
 .small.headline {
   font-size: 16px;
-font-weight: bold;
-text-align: center;
-margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 
@@ -205,7 +197,6 @@ footer{
   align-items: center;
   display: flex;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .ftitle {
@@ -228,7 +219,6 @@ footer{
 }
 
 .fbottom {
-  border: 1px solid black;
   margin: 0 auto;
   font-family: Verdana;
   font-size: 12px;
