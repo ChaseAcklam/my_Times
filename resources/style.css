@@ -1,15 +1,22 @@
 .header {
-
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%
 }
-
 .logo {
-
+color: MediumAquamarine;
+}
+.logoimg {
+  margin: 10px 25px;
+  display: inline-flex;
+  color: MediumAquamarine;
 }
 
-.title {
-
-}
-
-.nav {
-
+.nav a {
+  display: inline-block;
+  color: black;
 }
