@@ -54,6 +54,7 @@ color: MediumAquamarine;
   width: 300px;
   border: 1px solid black;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .column.small {
@@ -61,24 +62,29 @@ color: MediumAquamarine;
   width: 240px;
   border: 1px solid black;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .lheadline {
+  text-align: left;
+  width: 100%;
+  align-items: flex-start;
   height: 300px;
   position: relative;
-  display: inline-block;
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   background-image: url("images/img-story-main.png");
 }
 .learthspins {
+  justify-content: center;
   text-align: center;
   height: 300px;
   width: 100%;
   position: relative;
-  display: inline-block;
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -86,16 +92,31 @@ color: MediumAquamarine;
   background-image: url("images/style.png");
 }
 .lresearch {
+  justify-content: center;
   text-align: center;
   height: 300px;
   width: 100%;
   position: relative;
-  display: inline-block;
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   background-image: url("images/img-story-3.png");
+}
+
+.mcats {
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("images/img-story-1.png");
 }
 
 .large.lheadline, .monument, .orca, .earthspins, .burger, .research{
