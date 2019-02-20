@@ -30,8 +30,10 @@ color: MediumAquamarine;
 }
 
 .main {
+  margin-top: 40px;
   display: flex;
   border: 1px solid black;
+  justify-content: space-around;
 }
 
 .column {
@@ -46,19 +48,72 @@ color: MediumAquamarine;
   flex-wrap: wrap;
 }
 
-.medium {
+.column.medium {
+  margin: 0px 20px;
   display: flex;
   width: 300px;
   border: 1px solid black;
+  flex-wrap: wrap;
 }
 
-.small {
+.column.small {
   display: flex;
   width: 240px;
   border: 1px solid black;
+  flex-wrap: wrap;
 }
 
-.large.headline, .monument, .orca, .earthspins, .burger, .research{
+.lheadline {
+  height: 300px;
+  position: relative;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("images/img-story-main.png");
+}
+.learthspins {
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("images/style.png");
+}
+.lresearch {
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("images/img-story-3.png");
+}
+
+.large.lheadline, .monument, .orca, .earthspins, .burger, .research{
+  position: relative;
+  display: inline;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.medium.headline, .cats, .brooklyn{
+  position: relative;
+  display: inline;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.small.cookie, .headline {
+  align-content: center;
   position: relative;
   display: inline;
   width: 100%;
