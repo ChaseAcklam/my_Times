@@ -28,3 +28,39 @@ color: MediumAquamarine;
   color: black;
   margin: 0px 10px;
 }
+
+.main {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column.large {
+  display: flex;
+  max-width: 630px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+}
+
+.large.headline, .monument, .orca, .earthspins, .burger, .research{
+  position: relative;
+  display: inline;
+  width: 100%;
+  border: 1px solid black;
+}
